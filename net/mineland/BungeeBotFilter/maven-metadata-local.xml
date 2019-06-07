@@ -3,11 +3,12 @@
   <groupId>net.mineland</groupId>
   <artifactId>BungeeBotFilter</artifactId>
   <versioning>
-    <release>update1.14</release>
+    <release>3.7.4</release>
     <versions>
       <version>3.6</version>
       <version>update1.14</version>
+      <version>3.7.4</version>
     </versions>
-    <lastUpdated>20190510123250</lastUpdated>
+    <lastUpdated>20190607214226</lastUpdated>
   </versioning>
 </metadata>
