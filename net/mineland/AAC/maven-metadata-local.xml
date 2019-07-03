@@ -3,10 +3,11 @@
   <groupId>net.mineland</groupId>
   <artifactId>AAC</artifactId>
   <versioning>
-    <release>3.3.15</release>
+    <release>3.6.4</release>
     <versions>
       <version>3.3.15</version>
+      <version>3.6.4</version>
     </versions>
-    <lastUpdated>20190228135129</lastUpdated>
+    <lastUpdated>20190703035323</lastUpdated>
   </versioning>
 </metadata>
