@@ -1,0 +1,15 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Aug 27 20:46:54 MSK 2019
+bungeecord-chat-1.13-20190406.085523-69-sources.jar>sonatype-oss-repo=
+bungeecord-chat-1.13-20190406.085523-69-sources.jar>spigotmc-repo=
+bungeecord-chat-1.13-20190406.085523-69-javadoc.jar>sonatype-oss-repo=
+bungeecord-chat-1.13-20190318.022657-68.jar>spigotmc-public=
+bungeecord-chat-1.13-20190318.022657-68.pom>spigotmc-public=
+bungeecord-chat-1.13-20190406.085523-69.jar>spigotmc-repo=
+bungeecord-chat-1.13-20190406.085523-69.jar>spigotmc-public=
+bungeecord-chat-1.13-20190406.085523-69.jar>sonatype-nexus-snapshots=
+bungeecord-chat-1.13-20190406.085523-69.pom>spigotmc-public=
+bungeecord-chat-1.13-SNAPSHOT.jar>=
+bungeecord-chat-1.13-20190406.085523-69-javadoc.jar>spigotmc-repo=
+bungeecord-chat-1.13-SNAPSHOT.pom>=
+bungeecord-chat-1.13-20190318.022657-68.jar>sonatype-nexus-snapshots=

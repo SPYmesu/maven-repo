@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Aug 27 20:47:22 MSK 2019
+bungeecord-native-1.13-SNAPSHOT.pom>=
+bungeecord-native-1.13-20190406.085622-66-javadoc.jar>sonatype-oss-repo=
+bungeecord-native-1.13-SNAPSHOT.jar>=
+bungeecord-native-1.13-20190406.085622-66-sources.jar>sonatype-oss-repo=

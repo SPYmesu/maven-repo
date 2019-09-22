@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.md-5</groupId>
+  <artifactId>bungeecord-chat</artifactId>
+  <versioning>
+    <versions>
+      <version>1.13-SNAPSHOT</version>
+      <version>1.14-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190914220506</lastUpdated>
+  </versioning>
+</metadata>
