@@ -1,0 +1,613 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "su.spyme",
+    "module": "marketplace-base",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-netty",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-logging",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-id",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-default-headers",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-config-yaml",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-jwt",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-rate-limit",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.exposed",
+          "module": "exposed-core",
+          "version": {
+            "requires": "0.57.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.exposed",
+          "module": "exposed-jdbc",
+          "version": {
+            "requires": "0.57.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.exposed",
+          "module": "exposed-java-time",
+          "version": {
+            "requires": "0.57.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.exposed",
+          "module": "exposed-json",
+          "version": {
+            "requires": "0.57.0"
+          }
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "6.2.1"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.7"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "10.18.0"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-database-postgresql",
+          "version": {
+            "requires": "10.18.0"
+          }
+        },
+        {
+          "group": "com.auth0",
+          "module": "java-jwt",
+          "version": {
+            "requires": "4.4.0"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.19"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "marketplace-base-0.1.0.jar",
+          "url": "marketplace-base-0.1.0.jar",
+          "size": 1038680,
+          "sha512": "da5235690a8c2153cd49fb2ea6ab00997f06f44d30873c3e480a77e12f53982f5f116a5d057f9bb1cebe434621e2e1ea374df908016298cb52a7f4fb104b7325",
+          "sha256": "be36e85036a15b5d0a7669cfe7cecbff68eeb10051b630231b25c1e0fd4bb9e3",
+          "sha1": "b160e410971907b60a7f09e9807f7aa2f713258e",
+          "md5": "9157e46a136fb8f8e65ea1c6598af72a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-cio",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "com.yubico",
+          "module": "webauthn-server-core",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk18on",
+          "version": {
+            "requires": "1.84"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcpkix-jdk18on",
+          "version": {
+            "requires": "1.84"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "3.1.8"
+          }
+        },
+        {
+          "group": "io.github.resilience4j",
+          "module": "resilience4j-circuitbreaker",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "io.github.resilience4j",
+          "module": "resilience4j-kotlin",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "it.sauronsoftware.cron4j",
+          "module": "cron4j",
+          "version": {
+            "requires": "2.2.5"
+          }
+        },
+        {
+          "group": "net.openhft",
+          "module": "zero-allocation-hashing",
+          "version": {
+            "requires": "0.16"
+          }
+        },
+        {
+          "group": "com.github.slugify",
+          "module": "slugify",
+          "version": {
+            "requires": "3.0.7"
+          }
+        },
+        {
+          "group": "com.meilisearch.sdk",
+          "module": "meilisearch-java",
+          "version": {
+            "requires": "0.14.2"
+          }
+        },
+        {
+          "group": "io.pebbletemplates",
+          "module": "pebble",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "com.vladsch.flexmark",
+          "module": "flexmark-all",
+          "version": {
+            "requires": "0.64.8"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.18.3"
+          }
+        },
+        {
+          "group": "org.imgscalr",
+          "module": "imgscalr-lib",
+          "version": {
+            "requires": "4.2"
+          }
+        },
+        {
+          "group": "io.github.smiley4",
+          "module": "ktor-swagger-ui",
+          "version": {
+            "requires": "4.1.1"
+          }
+        },
+        {
+          "group": "com.github.pengrad",
+          "module": "java-telegram-bot-api",
+          "version": {
+            "requires": "7.9.0"
+          }
+        },
+        {
+          "group": "org.eclipse.angus",
+          "module": "jakarta.mail",
+          "version": {
+            "requires": "2.0.4"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "net.logstash.logback",
+          "module": "logstash-logback-encoder",
+          "version": {
+            "requires": "8.0"
+          }
+        },
+        {
+          "group": "io.micrometer",
+          "module": "micrometer-registry-prometheus",
+          "version": {
+            "requires": "1.14.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-netty",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-content-negotiation",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-status-pages",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-logging",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-call-id",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-default-headers",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-config-yaml",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-auth-jwt",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-rate-limit",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.exposed",
+          "module": "exposed-core",
+          "version": {
+            "requires": "0.57.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.exposed",
+          "module": "exposed-jdbc",
+          "version": {
+            "requires": "0.57.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.exposed",
+          "module": "exposed-java-time",
+          "version": {
+            "requires": "0.57.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.exposed",
+          "module": "exposed-json",
+          "version": {
+            "requires": "0.57.0"
+          }
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "6.2.1"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.7"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "10.18.0"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-database-postgresql",
+          "version": {
+            "requires": "10.18.0"
+          }
+        },
+        {
+          "group": "com.auth0",
+          "module": "java-jwt",
+          "version": {
+            "requires": "4.4.0"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.19"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "marketplace-base-0.1.0.jar",
+          "url": "marketplace-base-0.1.0.jar",
+          "size": 1038680,
+          "sha512": "da5235690a8c2153cd49fb2ea6ab00997f06f44d30873c3e480a77e12f53982f5f116a5d057f9bb1cebe434621e2e1ea374df908016298cb52a7f4fb104b7325",
+          "sha256": "be36e85036a15b5d0a7669cfe7cecbff68eeb10051b630231b25c1e0fd4bb9e3",
+          "sha1": "b160e410971907b60a7f09e9807f7aa2f713258e",
+          "md5": "9157e46a136fb8f8e65ea1c6598af72a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "marketplace-base-0.1.0-sources.jar",
+          "url": "marketplace-base-0.1.0-sources.jar",
+          "size": 200822,
+          "sha512": "57053977a0f1e9af964716bc92c80e1762f10eb5d30323981223cc8f92afba8f99c0e3517bcee01a61ed9c4142394604fbc6421f544a60ee112a3ee2808201bf",
+          "sha256": "226f812c7bc72ecc30e6ac82454deab61461de810c8b893699e6bc5de34dc6c3",
+          "sha1": "ff49715dfee3aa45c4eba6b1d4e72806f48e8bef",
+          "md5": "2103466634d8f147acf61fc9256794b9"
+        }
+      ]
+    }
+  ]
+}
