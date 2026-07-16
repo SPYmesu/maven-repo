@@ -213,11 +213,11 @@
         {
           "name": "marketplace-base-0.3.0.jar",
           "url": "marketplace-base-0.3.0.jar",
-          "size": 1295083,
-          "sha512": "d4956b43d4866149f05bf75375a5c1e8281d24c13484c5a3092fe7ddf098692e03ab32b56418d2432e011d136564303da90c5eb70f6bb1fe6d42a46bf5d15910",
-          "sha256": "1fcb9011d9c25952f9e3d4f88e510f098dbd6c253f1bc7c20772d0dd4f99d392",
-          "sha1": "a75ca70a04f94f6862cdbf69a506e1e02a08ea1e",
-          "md5": "b297009af28af13637e5c48723605db3"
+          "size": 1294787,
+          "sha512": "6c8d44cf8c87ce8d5fa1501c2d1659475ca2b6d6d1a450fd5caaef7bd62008ce8c540c4cb63ea607c426ff1d64a05c0b9c8c882d526d55ef6865463f5fc94bce",
+          "sha256": "3b73e116d4e2bd956c969a1b5cde61c9e598c50bf5a1801d749110b94366626e",
+          "sha1": "9f26d28e99e9d63a91ab97d958f169a13e835392",
+          "md5": "5def7d6337dd24ded5ff19c284ec36df"
         }
       ]
     },
@@ -581,11 +581,11 @@
         {
           "name": "marketplace-base-0.3.0.jar",
           "url": "marketplace-base-0.3.0.jar",
-          "size": 1295083,
-          "sha512": "d4956b43d4866149f05bf75375a5c1e8281d24c13484c5a3092fe7ddf098692e03ab32b56418d2432e011d136564303da90c5eb70f6bb1fe6d42a46bf5d15910",
-          "sha256": "1fcb9011d9c25952f9e3d4f88e510f098dbd6c253f1bc7c20772d0dd4f99d392",
-          "sha1": "a75ca70a04f94f6862cdbf69a506e1e02a08ea1e",
-          "md5": "b297009af28af13637e5c48723605db3"
+          "size": 1294787,
+          "sha512": "6c8d44cf8c87ce8d5fa1501c2d1659475ca2b6d6d1a450fd5caaef7bd62008ce8c540c4cb63ea607c426ff1d64a05c0b9c8c882d526d55ef6865463f5fc94bce",
+          "sha256": "3b73e116d4e2bd956c969a1b5cde61c9e598c50bf5a1801d749110b94366626e",
+          "sha1": "9f26d28e99e9d63a91ab97d958f169a13e835392",
+          "md5": "5def7d6337dd24ded5ff19c284ec36df"
         }
       ]
     },
