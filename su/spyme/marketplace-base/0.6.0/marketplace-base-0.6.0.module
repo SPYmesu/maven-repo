@@ -1,0 +1,361 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "su.spyme",
+    "module": "marketplace-base",
+    "version": "0.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.exposed",
+          "module": "exposed-core",
+          "version": {
+            "requires": "0.57.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.exposed",
+          "module": "exposed-jdbc",
+          "version": {
+            "requires": "0.57.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.exposed",
+          "module": "exposed-java-time",
+          "version": {
+            "requires": "0.57.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.exposed",
+          "module": "exposed-json",
+          "version": {
+            "requires": "0.57.0"
+          }
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "6.2.1"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.7"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "10.18.0"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-database-postgresql",
+          "version": {
+            "requires": "10.18.0"
+          }
+        },
+        {
+          "group": "com.auth0",
+          "module": "java-jwt",
+          "version": {
+            "requires": "4.4.0"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.18.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "marketplace-base-0.6.0.jar",
+          "url": "marketplace-base-0.6.0.jar",
+          "size": 1786949,
+          "sha512": "9afb3f846020aab721dfacb8eedad0220f3fff8f845af79fd36919cd6a187f7aae238ac6656835fc852d91f94551d0fe18e3ebfa9ef0df70ee03c7ab059583fa",
+          "sha256": "521f408c81be5758013228960ba35e77e64645dca747712aa171c3d4f38038a5",
+          "sha1": "d477cf2ae7daa36ea17591bdc5e9938a2ac03e02",
+          "md5": "80149a89656889f62dce22f0db4b38b1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk18on",
+          "version": {
+            "requires": "1.84"
+          }
+        },
+        {
+          "group": "com.github.ben-manes.caffeine",
+          "module": "caffeine",
+          "version": {
+            "requires": "3.1.8"
+          }
+        },
+        {
+          "group": "io.github.resilience4j",
+          "module": "resilience4j-circuitbreaker",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "io.github.resilience4j",
+          "module": "resilience4j-kotlin",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.meilisearch.sdk",
+          "module": "meilisearch-java",
+          "version": {
+            "requires": "0.14.2"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "com.vladsch.flexmark",
+          "module": "flexmark",
+          "version": {
+            "requires": "0.64.8"
+          }
+        },
+        {
+          "group": "com.vladsch.flexmark",
+          "module": "flexmark-ext-autolink",
+          "version": {
+            "requires": "0.64.8"
+          }
+        },
+        {
+          "group": "com.vladsch.flexmark",
+          "module": "flexmark-ext-gfm-strikethrough",
+          "version": {
+            "requires": "0.64.8"
+          }
+        },
+        {
+          "group": "com.vladsch.flexmark",
+          "module": "flexmark-ext-gfm-tasklist",
+          "version": {
+            "requires": "0.64.8"
+          }
+        },
+        {
+          "group": "com.vladsch.flexmark",
+          "module": "flexmark-ext-tables",
+          "version": {
+            "requires": "0.64.8"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "3.4.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.exposed",
+          "module": "exposed-core",
+          "version": {
+            "requires": "0.57.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.exposed",
+          "module": "exposed-jdbc",
+          "version": {
+            "requires": "0.57.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.exposed",
+          "module": "exposed-java-time",
+          "version": {
+            "requires": "0.57.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.exposed",
+          "module": "exposed-json",
+          "version": {
+            "requires": "0.57.0"
+          }
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "version": {
+            "requires": "6.2.1"
+          }
+        },
+        {
+          "group": "org.postgresql",
+          "module": "postgresql",
+          "version": {
+            "requires": "42.7.7"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "10.18.0"
+          }
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-database-postgresql",
+          "version": {
+            "requires": "10.18.0"
+          }
+        },
+        {
+          "group": "com.auth0",
+          "module": "java-jwt",
+          "version": {
+            "requires": "4.4.0"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.18.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.3.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "marketplace-base-0.6.0.jar",
+          "url": "marketplace-base-0.6.0.jar",
+          "size": 1786949,
+          "sha512": "9afb3f846020aab721dfacb8eedad0220f3fff8f845af79fd36919cd6a187f7aae238ac6656835fc852d91f94551d0fe18e3ebfa9ef0df70ee03c7ab059583fa",
+          "sha256": "521f408c81be5758013228960ba35e77e64645dca747712aa171c3d4f38038a5",
+          "sha1": "d477cf2ae7daa36ea17591bdc5e9938a2ac03e02",
+          "md5": "80149a89656889f62dce22f0db4b38b1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "marketplace-base-0.6.0-sources.jar",
+          "url": "marketplace-base-0.6.0-sources.jar",
+          "size": 326897,
+          "sha512": "0e8d0721d7720679d556f3763d5ad333694ec9ced6f4e8ef4fb0c2ac543005accfd2a612c6b9e36a031e31024fb8760562ddc21cfc373b68c98a5ec3d24d1ccf",
+          "sha256": "3514953e02cff2e1dabdcfa9616aee022b2cc46a23380d77067458cdbcb2a657",
+          "sha1": "52113444efead2853e89d42a41234129203b9d6a",
+          "md5": "78110e0a80338f1606ded882d3280c8c"
+        }
+      ]
+    }
+  ]
+}
