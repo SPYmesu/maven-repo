@@ -3,11 +3,11 @@
   <groupId>plugins</groupId>
   <artifactId>limboapi</artifactId>
   <versioning>
-    <latest>1.1.27-26.3</latest>
-    <release>1.1.27-26.3</release>
+    <latest>1.1.27-bfef579</latest>
+    <release>1.1.27-bfef579</release>
     <versions>
-      <version>1.1.27-26.3</version>
+      <version>1.1.27-bfef579</version>
     </versions>
-    <lastUpdated>20261001221525</lastUpdated>
+    <lastUpdated>20261018160258</lastUpdated>
   </versioning>
 </metadata>
